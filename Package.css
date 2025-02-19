@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .header-line {
@@ -43,10 +44,15 @@
 
 .body {
   display: flex;
+  margin-top: 88px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.left-img {
-  position: relative;
+.left-image {
+  display: flex;
+  /* width: 309px; */
 }
 
 .left-image-top {
@@ -54,20 +60,21 @@
   width: 183px;
   height: 257px;
   top: 210px;
-  left: 113px;
+  margin: 10px -535px 20px;
 }
 
 .left-image-bottom {
   position: absolute;
   width: 253px;
   height: 363px;
-  top: 646px;
-  left: 169px;
+  margin: 10px -479px 20px;
 }
 
 .content {
-  margin-top: 112px;
-  margin-left: 642px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 636px;
   height: 998px;
 }
@@ -86,6 +93,7 @@
   margin-bottom: 56px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .content-item-p {
@@ -122,22 +130,14 @@
 }
 
 .content-divider {
-  /* margin: 56px 238px;
-  width: 160px;
   height: 1px;
-  gap: 8px;*/
-  background: var(--Background, #fff9f5);
-  display: flex;
-  width: 160px;
-  height: 1px;
-  align-items: center;
-  gap: 8px;
-  /* background-color: red; */
-  margin-bottom: 40px;
+  flex: 1 0 0;
+  fill: var(--Border, #f3eae5);
+  /* margin-top: 56px; */
+  margin-bottom: 56px;
 }
 
 .content-content {
-  width: 618px;
   color: var(--Text, #462b20);
   text-align: center;
   font-family: "Inter";
@@ -159,14 +159,11 @@
   line-height: var(--Heading-line-height-H4, 61px); /* 105.172% */
   letter-spacing: var(--Heading-letter-spacing-H4, -1px);
   text-align: center;
-
-  /* margin-left: 148.5px; */
-  margin-bottom: 34.5px;
+  margin-bottom: 32px;
 }
 
 .right-image {
-  position: relative;
-  float: right;
+  display: flex;
 }
 
 .right-image-top {
@@ -174,7 +171,7 @@
   width: 274px;
   height: 385px;
   top: 168px;
-  left: 272px;
+  margin-left: 281px;
 }
 
 .right-image-bottom {
@@ -182,5 +179,5 @@
   width: 183px;
   height: 257px;
   top: 710px;
-  left: 217px;
+  margin-left: 217px;
 }
